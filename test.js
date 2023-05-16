@@ -10,12 +10,6 @@ delete user.age;
 
 console.log(user); */
 
-
-
-
-
-
-
 /* function getLargestExpressionResultOfThree(a, b) {
     
     if (((a + b) > (a - b)) && ((a + b) > (a * b))) {
@@ -35,7 +29,6 @@ getLargestExpressionResultOfThree(5, 5);
 
 console.log(); */
 
-
 /* function getLargestExpressionResult(a, b) {
   let result = a + b;
 
@@ -53,6 +46,43 @@ console.log(); */
 
   return result;
 }
-
-
 getLargestExpressionResult(25, 25); */
+
+/* function getDrinks(numberOfGuests) {
+  if (numberOfGuests === 0) {
+    return 0;
+  } else {
+    let numberOfPortions = 0;
+
+    for (let i = 1; i <= numberOfGuests; i += 1) {
+      numberOfPortions += i;
+    }
+    return numberOfPortions;
+  }
+}
+
+console.log(getDrinks(3)); */
+
+/* function getDrinksWithStep(numberOfGuests, step) {
+  let sum = 0;
+
+  for (let i = 0; i <= numberOfGuests; i += step) {
+    sum += i;
+    // console.log(i);
+  }
+  return sum;
+}
+
+console.log(getDrinksWithStep(6, 3)); */
+
+function calculateProfit(amount, percent, period) {
+  let profit = amount + amount * (percent / 100);
+  for (let i = 0; i <= period; i += 1) {
+    console.log(i);
+    profit += profit;
+  }
+  return profit;
+}
+
+console.log("1st: ", calculateProfit(1000, 5, 1)); // 50
+console.log("2nd: ", calculateProfit(12500, 3, 12)); // 5322

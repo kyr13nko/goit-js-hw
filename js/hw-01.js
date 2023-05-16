@@ -1,14 +1,12 @@
 // ============== МОДУЛЬ 1 ==============
 //   Змінні та типи. Розгалуження. Цикли.
 
-
 // ++++++++++++++ ТЕСТ 1 ++++++++++++++
 
 /* const productName = "Droid";
 console.log(productName); // 'Droid'
 const pricePerItem = 2000;
 console.log(pricePerItem); // 2000 */
-
 
 // ++++++++++++++ ТЕСТ 2 ++++++++++++++
 
@@ -20,7 +18,6 @@ productName = "Repair droid";
 
 console.log(`${productName}: ${pricePerItem}`); */
 
-
 // ++++++++++++++ ТЕСТ 3 ++++++++++++++
 
 /* const topSpeed = 160;
@@ -28,7 +25,6 @@ const distance = 617.54;
 const login = "mango935";
 const isOnline = true;
 const isAdmin = false; */
-
 
 // ++++++++++++++ ТЕСТ 4 ++++++++++++++
 
@@ -38,7 +34,6 @@ const orderedQuantity = 4;
 const totalPrice = pricePerItem * orderedQuantity;
 
 console.log(totalPrice); */
-
 
 // ++++++++++++++ ТЕСТ 5 ++++++++++++++
 
@@ -66,7 +61,6 @@ console.log(message); */
 }
 sayHi(); */
 
-
 // ++++++++++++++ ТЕСТ 8 ++++++++++++++
 
 /* function add(a, b, c) {
@@ -76,7 +70,6 @@ sayHi(); */
   add(15, 27, 10);
   add(10, 20, 30);
   add(5, 10, 15); */
-
 
 // ++++++++++++++ ТЕСТ 9 ++++++++++++++
 
@@ -89,7 +82,6 @@ sayHi(); */
   console.log(add(15, 27, 10));
   console.log(add(10, 20, 30));
   console.log(add(5, 10, 15)); */
-
 
 // ++++++++++++++ ТЕСТ 10 ++++++++++++++
 
@@ -115,7 +107,6 @@ console.log(message3);
 const message4 = makeMessage('Engine', 4070);
 console.log(message4); */
 
-
 // ++++++++++++++ ТЕСТ 11 ++++++++++++++
 
 /* function calculateTotalPrice (orderedQuantity, pricePerItem) {
@@ -129,7 +120,6 @@ console.log(message4); */
   calculateTotalPrice(1, 3500);
   calculateTotalPrice(12, 70); */
 
-
 // ++++++++++++++ ТЕСТ 12 ++++++++++++++
 
 /* function makeOrderMessage(orderedQuantity, pricePerDroid, deliveryFee) {
@@ -140,7 +130,6 @@ console.log(message4); */
 makeOrderMessage(2, 100, 50);
 makeOrderMessage(4, 300, 100);
 makeOrderMessage(10, 70, 200); */
-
 
 // ++++++++++++++ ТЕСТ 13 ++++++++++++++
 
@@ -154,7 +143,6 @@ isAdult(14);
 isAdult(8);
 isAdult(37); */
 
-
 // ++++++++++++++ ТЕСТ 14 ++++++++++++++
 
 /* function isValidPassword(password) {
@@ -165,7 +153,6 @@ isAdult(37); */
 isValidPassword("mangodab3st")
 isValidPassword("kiwirul3z");
 isValidPassword("jqueryismyjam"); */
-
 
 // ++++++++++++++ ТЕСТ 15 ++++++++++++++
 
@@ -186,7 +173,6 @@ checkAge(8);
 checkAge(14);
 checkAge(38); */
 
-
 // ++++++++++++++ ТЕСТ 16 ++++++++++++++
 
 /* function checkStorage(available, ordered) {
@@ -205,7 +191,6 @@ checkStorage(200, 20);
 checkStorage(200, 150);
 checkStorage(150, 180); */
 
-
 // ++++++++++++++ ТЕСТ 17 ++++++++++++++
 
 /* let a = 5;
@@ -217,7 +202,6 @@ a += 2;
 b -= 4;
 c *= 3;
 d /= 10; */
-
 
 // ++++++++++++++ ТЕСТ 18 ++++++++++++++
 
@@ -238,7 +222,6 @@ console.log(makeTransaction(1000, 3, 15000));
 console.log(makeTransaction(5000, 10, 8000));
 console.log(makeTransaction(2000, 8, 10000));
 console.log(makeTransaction(500, 10, 5000)); */
-
 
 // ++++++++++++++ ТЕСТ 19 ++++++++++++++
 
@@ -262,7 +245,6 @@ checkPassword(null);
 checkPassword("polyhax");
 checkPassword("jqueryismyjam"); */
 
-
 // ++++++++++++++ ТЕСТ 20 ++++++++++++++
 
 /* function checkStorage(available, ordered) {
@@ -284,7 +266,6 @@ checkStorage(200, 20);
 checkStorage(200, 250);
 checkStorage(150, 0); */
 
-
 // ++++++++++++++ ТЕСТ 21 ++++++++++++++
 
 /* function isNumberInRange(start, end, number) {
@@ -297,7 +278,6 @@ isNumberInRange(10, 30, 17);
 isNumberInRange(10, 30, 5);
 isNumberInRange(20, 50, 24);
 isNumberInRange(20, 50, 76); */
-
 
 // ++++++++++++++ ТЕСТ 22 ++++++++++++++
 
@@ -312,7 +292,6 @@ checkIfCanAccessContent("starter");
 checkIfCanAccessContent("vip");
 checkIfCanAccessContent("free"); */
 
-
 // ++++++++++++++ ТЕСТ 23 ++++++++++++++
 
 /* function isNumberNotInRange(start, end, number) {
@@ -321,7 +300,6 @@ checkIfCanAccessContent("free"); */
 
   return isNotInRange;
 } */
-
 
 // ++++++++++++++ ТЕСТ 24 ++++++++++++++
 
@@ -360,7 +338,6 @@ console.log(getDiscount(137000)); */
 
 console.log(checkStorage(20, 25)); */
 
-
 // ++++++++++++++ ТЕСТ 26 ++++++++++++++
 
 /* function checkPassword(password) {
@@ -371,7 +348,6 @@ console.log(checkStorage(20, 25)); */
   
   return message;
 } */
-
 
 // ++++++++++++++ ТЕСТ 27 ++++++++++++++
 
@@ -399,7 +375,6 @@ console.log(getSubscriptionPrice('professional'));
 console.log(getSubscriptionPrice('organization'));
 console.log(getSubscriptionPrice('starter')); */
 
-
 // ++++++++++++++ ТЕСТ 28 ++++++++++++++
 
 /* function checkPassword(password) {
@@ -423,7 +398,6 @@ console.log(getSubscriptionPrice('starter')); */
 }
 
 console.log(checkPassword('')); */
-
 
 // ++++++++++++++ ТЕСТ 29 ++++++++++++++
 
@@ -463,30 +437,91 @@ console.log(getShippingCost('Chile'));
 console.log(getShippingCost('Jamaica'));
 console.log(getShippingCost('Sweden')); */
 
-
-
 // ++++++++++++++ ТЕСТ 30 ++++++++++++++
 
 /* function getNameLength(name) {
-  const message = `Name ${name} is ${name.length} characters long`; 
-  return message;
+    const message = `Name ${name} is ${name.length} characters long`;
+    return message;
 }
-  console.log(getNameLength("Poly"));
-  console.log(getNameLength("Harambe"));
-  console.log(getNameLength("Billy"));
-  console.log(getNameLength("Joe")); */
-
+console.log(getNameLength("Poly"));
+console.log(getNameLength("Harambe"));
+console.log(getNameLength("Billy"));
+console.log(getNameLength("Joe")); */
 
 // ++++++++++++++ ТЕСТ 31 ++++++++++++++
 
+/* const courseTopic = "JavaScript essentials";
+
+const courseTopicLength = courseTopic.length;
+const firstElement = courseTopic[0];
+const lastElement = courseTopic[courseTopic.length - 1]; */
+
 // ++++++++++++++ ТЕСТ 32 ++++++++++++++
+
+/* function getSubstring(string, length) {
+  const substring = string.slice(0, length);
+
+  return substring;
+}
+
+console.log(getSubstring("Hello world", 3));
+console.log(getSubstring("Hello world", 6));
+console.log(getSubstring("Hello world", 8));
+console.log(getSubstring("Hello world", 11));
+console.log(getSubstring("Hello world", 0)); */
 
 // ++++++++++++++ ТЕСТ 33 ++++++++++++++
 
+/* function formatMessage(message, maxLength) {
+  let result;
+  result =
+    message.length <= maxLength ? message : message.slice(0, maxLength) + "...";
+  return result;
+}
+
+console.log(formatMessage("Curabitur ligula sapien", 16));
+console.log(formatMessage("Curabitur ligula sapien", 23));
+console.log(formatMessage("Vestibulum facilisis purus nec", 20));
+console.log(formatMessage("Vestibulum facilisis purus nec", 30));
+console.log(formatMessage("Nunc sed turpis a felis in nunc fringilla", 15));
+console.log(formatMessage("Nunc sed turpis a felis in nunc fringilla", 41)); */
+
 // ++++++++++++++ ТЕСТ 34 ++++++++++++++
+/* function normalizeInput(input) {
+  const normalizedInput = input.toLowerCase();
+
+  return normalizedInput;
+}
+console.log(normalizeInput("Hello world"));
+console.log(normalizeInput("This ISN'T SpaM"));
+console.log(normalizeInput("Big SALE")); */
 
 // ++++++++++++++ ТЕСТ 35 ++++++++++++++
 
+/* function checkForName(fullName, name) {
+  const result = fullName.includes(name); 
+}
+console.log(checkForName("Egor Kolbasov", "Egor")); // true
+console.log(checkForName("Egor Kolbasov", "egor")); // false
+console.log(checkForName("Egor Kolbasov", "egOr")); // false
+console.log(checkForName("Egor Kolbasov", "Zhenya")); // false
+console.log(checkForName("Vadim Nekrasov", "Vadim")); // true
+console.log(checkForName("Vadim Nekrasov", "vadim")); // false
+console.log(checkForName("Vadim Nekrasov", "Dima")); // false */
+
 // ++++++++++++++ ТЕСТ 36 ++++++++++++++
 
+/* function checkForSpam(message) {
+  let result;
+  message = message.toLowerCase();
 
+  result = message.includes("spam") || message.includes("sale");
+  return result;
+}
+console.log(checkForSpam("Latest technology news")); // false
+console.log(checkForSpam("JavaScript weekly newsletter")); // false
+console.log(checkForSpam("Get best sale offers now!")); // true
+console.log(checkForSpam("Amazing SalE, only tonight!")); // true
+console.log(checkForSpam("Trust me, this is not a spam message")); // true
+console.log(checkForSpam("Get rid of sPaM emails. Our book in on sale!")); // true
+console.log(checkForSpam("[SPAM] How to earn fast money?")); // true */

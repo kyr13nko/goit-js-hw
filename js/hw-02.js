@@ -164,11 +164,96 @@ const newClients = ["Peach", "Houston"];
 const allClients = oldClients.concat(newClients); */
 
 // ++++++++++++++ ТЕСТ 16 ++++++++++++++
+
+/* function makeArray(firstArray, secondArray, maxLength) {
+  const newArray = firstArray.concat(secondArray).slice(0, maxLength);
+
+  return newArray;
+}
+
+console.log(makeArray(["Mango", "Poly"], ["Ajax", "Chelsea"], 3));
+console.log(makeArray(["Mango", "Poly", "Houston"], ["Ajax", "Chelsea"], 4));
+console.log(makeArray(["Mango"], ["Ajax", "Chelsea", "Poly", "Houston"], 3));
+console.log(makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus"], 2));
+console.log(makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus"], 4));
+console.log(makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus", "Venus"], 0)); */
+
 // ++++++++++++++ ТЕСТ 17 ++++++++++++++
+
+/* const start = 3;
+const end = 7;
+
+for (let i = start; i <= end; i += 1) {
+  console.log(i);
+} */
+
 // ++++++++++++++ ТЕСТ 18 ++++++++++++++
+
+/* function calculateTotal(number) {
+  let total = 0;
+  for (let i = 1; i <= number; i += 1) {
+    total += i;
+  }
+  return total;
+}
+
+console.log(calculateTotal(1));
+console.log(calculateTotal(3));
+console.log(calculateTotal(7));
+console.log(calculateTotal(18));
+console.log(calculateTotal(24)); */
+
 // ++++++++++++++ ТЕСТ 19 ++++++++++++++
+
+/* const fruits = ["apple", "plum", "pear", "orange"];
+
+for (let i = 0; i < fruits.length; i += 1) {
+  const fruit = fruits[i];
+  console.log(fruit);
+} */
+
 // ++++++++++++++ ТЕСТ 20 ++++++++++++++
+
+/* function calculateTotalPrice(order) {
+  let total = 0;
+
+  for (let i = 0; i < order.length; i += 1) {
+    total += order[i];
+  }
+  return total;
+}
+
+console.log(calculateTotalPrice([12, 85, 37, 4]));
+console.log(calculateTotalPrice([164, 48, 291]));
+console.log(calculateTotalPrice([412, 371, 94, 63, 176])); */
+
 // ++++++++++++++ ТЕСТ 21 ++++++++++++++
+
+function findLongestWord(string) {
+  // Розділити рядок на окремі слова за допомогою пробілу як роздільника
+  const words = string.split(" ");
+
+  // Змінна для зберігання найдовшого слова
+  let longestWord = "";
+
+  // Пройтися по кожному слову і знайти найдовше
+  for (let i = 0; i < words.length; i++) {
+    const currentWord = words[i];
+
+    // Порівняти довжину поточного слова з найдовшим словом
+    if (currentWord.length > longestWord.length) {
+      longestWord = currentWord;
+    }
+  }
+
+  // Повернути найдовше слово
+  return longestWord;
+}
+
+console.log(findLongestWord("The quick brown fox jumped over the lazy dog"));
+console.log(findLongestWord("Google do a roll"));
+console.log(findLongestWord("May the force be with you"));
+
 // ++++++++++++++ ТЕСТ 22 ++++++++++++++
 // ++++++++++++++ ТЕСТ 23 ++++++++++++++
 // ++++++++++++++ ТЕСТ 24 ++++++++++++++

@@ -422,13 +422,12 @@ console.log(findNumber(16, 35, 7)); */
 // ++++++++++++++ ТЕСТ 32 ++++++++++++++
 
 /* function includes(array, value) {
-  for (let i = 0; i < 5; i += i) {
-    // console.log(array.length);
-    // if (array[i] === value) {
-    //   return true;
-    // }
-    break;
+  for (let i = 0; i < array.length; i += 1) {
+    if (array[i] === value) {
+      return true;
+    }
   }
+  return false;
 }
 console.log(includes([1, 2, 3, 4, 5], 3)); // повертає true
 console.log(includes([1, 2, 3, 4, 5], 17)); // повертає false

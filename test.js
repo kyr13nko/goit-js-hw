@@ -97,3 +97,39 @@ console.log(getDrinksWithStep(6, 3)); */
 
 console.log("1st: ", calculateProfit(1000, 5, 1)); // 50
 console.log("2nd: ", calculateProfit(12500, 3, 12)); // 5322 */
+
+/* function countMs(text) {
+  // write code here
+  let count = "";
+  for (const letter of text) {
+    if (letter.toLocaleLowerCase() === "m") {
+      count += letter;
+    }
+  }
+  return count.length;
+}
+console.log(countMs("docuMmMent")); */
+
+/* function removeVowels(doc) {
+  let result = "";
+  for (const letter of doc) {
+    // if (!"aeiouy".includes(letter.toLocaleLowerCase())){
+      //   result += letter;
+      // }
+      if (
+        letter.toLocaleLowerCase() !== "a" &&
+        letter.toLocaleLowerCase() !== "e" &&
+        letter.toLocaleLowerCase() !== "i" &&
+        letter.toLocaleLowerCase() !== "o" &&
+        letter.toLocaleLowerCase() !== "u" &&
+        letter.toLocaleLowerCase() !== "y"
+      ) {
+        result += letter;
+      }
+  }
+  return result;
+}
+
+console.log(removeVowels("document")); // 'dcmnt'
+console.log(removeVowels("I like my boss")); // ' lk m bss'
+console.log(removeVowels("350 euro")); // '350 r' */

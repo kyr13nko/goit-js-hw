@@ -318,9 +318,121 @@ console.log(getCommonElements([10, 20, 30, 40], [4, 30, 17, 10, 40]));
 console.log(getCommonElements([1, 2, 3], [10, 20, 30])); */
 
 // ++++++++++++++ ТЕСТ 26 ++++++++++++++
+
+/* function calculateTotalPrice(order) {
+  let total = 0;
+
+  //   for (let i = 0; i < order.length; i += 1) {
+  //   total += order[i];
+  // }
+
+  for (const item of order) {
+    total += item;
+  }
+  return total;
+}
+console.log(calculateTotalPrice([12, 85, 37, 4]));
+console.log(calculateTotalPrice([164, 48, 291]));
+console.log(calculateTotalPrice([412, 371, 94, 63, 176]));
+console.log(calculateTotalPrice([])); */
+
 // ++++++++++++++ ТЕСТ 27 ++++++++++++++
+
+/* function filterArray(numbers, value) {
+  const filteredNumbers = [];
+
+  for (const number of numbers) {
+    if (number > value) {
+      filteredNumbers.push(number);
+    }
+  }
+
+  return filteredNumbers;
+}
+
+console.log(filterArray([1, 2, 3, 4, 5], 3));
+console.log(filterArray([1, 2, 3, 4, 5], 4));
+console.log(filterArray([1, 2, 3, 4, 5], 5));
+console.log(filterArray([12, 24, 8, 41, 76], 38));
+console.log(filterArray([12, 24, 8, 41, 76], 20)); */
+
 // ++++++++++++++ ТЕСТ 28 ++++++++++++++
+
+/* const a = 3 % 3; // 0
+console.log(a);
+const b = 4 % 3; // 1
+console.log(b);
+const c = 11 % 8; // 3
+console.log(c);
+const d = 12 % 7; // 5
+console.log(d);
+const e = 8 % 6; // 2
+console.log(e); */
+
 // ++++++++++++++ ТЕСТ 29 ++++++++++++++
+
+/* function getEvenNumbers(start, end) {
+  const newArray = [];
+  for (let i = start; i <= end; i += 1) {
+    if (i % 2 === 0) {
+      newArray.push(i);
+    }
+  }
+  return newArray;
+}
+
+console.log(getEvenNumbers(2, 5));
+console.log(getEvenNumbers(3, 11));
+console.log(getEvenNumbers(6, 12));
+console.log(getEvenNumbers(8, 8));
+console.log(getEvenNumbers(7, 7)); */
+
 // ++++++++++++++ ТЕСТ 30 ++++++++++++++
+
+/* const start = 6;
+const end = 27;
+let number;
+
+for (let i = start; i < end; i += 1) {
+  if (i % 5 === 0) {
+    number = i;
+    break;
+  }
+}
+
+console.log(
+  `Перше число між ${start} і ${end} яке ділиться без остачі на 5: ${number}`
+); */
+
 // ++++++++++++++ ТЕСТ 31 ++++++++++++++
+
+/* function findNumber(start, end, divisor) {
+  for (let i = start; i < end; i += 1) {
+    if (i % divisor === 0) {
+      return i;
+    }
+  }
+}
+
+console.log(findNumber(2, 6, 5));
+console.log(findNumber(8, 17, 3));
+console.log(findNumber(6, 9, 4));
+console.log(findNumber(16, 35, 7)); */
+
 // ++++++++++++++ ТЕСТ 32 ++++++++++++++
+
+/* function includes(array, value) {
+  for (let i = 0; i < 5; i += i) {
+    // console.log(array.length);
+    // if (array[i] === value) {
+    //   return true;
+    // }
+    break;
+  }
+}
+console.log(includes([1, 2, 3, 4, 5], 3)); // повертає true
+console.log(includes([1, 2, 3, 4, 5], 17)); // повертає false
+console.log(includes(["Earth", "Mars", "Venus", "Jupiter", "Saturn"], "Jupiter")); // повертає true
+console.log(includes(["Earth", "Mars", "Venus", "Jupiter", "Saturn"], "Uranus")); // повертає false
+console.log(includes(["apple", "plum", "pear", "orange"], "plum")); // повертає true
+console.log(includes(["apple", "plum", "pear", "orange"], "kiwi")); // повертає false */

@@ -133,3 +133,49 @@ console.log(countMs("docuMmMent")); */
 console.log(removeVowels("document")); // 'dcmnt'
 console.log(removeVowels("I like my boss")); // ' lk m bss'
 console.log(removeVowels("350 euro")); // '350 r' */
+
+// Функція робить абревіаруту з перших літер
+/* function makeAbbr(words) {
+  // write code here
+  let abbr = words[0];
+  for (let i = 0; i < words.length; i += 1) {
+    if (words[i] === " ") {
+      abbr += words[i + 1];
+    }
+  }
+  return abbr.toLocaleUpperCase();
+}
+
+console.log(makeAbbr("world wide web")); */
+
+// Функція повертає зворотній рядок
+/* function decryptMessage(message) {
+  
+  let reverseMessage = "";
+  for (let i = message.length - 1; i >= 0; i -= 1) {
+    reverseMessage += message[i];
+  }
+  return reverseMessage;
+}
+
+console.log(decryptMessage("world wide web")); */
+
+function isWerewolf(target) {
+  let item = "";
+  target = target.toLocaleLowerCase();
+
+  for (let i = target.length - 1; i >= 0; i -= 1) {
+    if (target[i] !== " " && target[i] !== ",") {
+      item += target[i];
+    }
+
+    if (item === target) {
+      return true;
+    }
+  }
+  return false;
+}
+
+console.log(isWerewolf("rotaTor"));
+console.log(isWerewolf("rEpper"));
+console.log(isWerewolf("eva, can i see bees in a cave"));

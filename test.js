@@ -160,22 +160,43 @@ console.log(makeAbbr("world wide web")); */
 
 console.log(decryptMessage("world wide web")); */
 
-function isWerewolf(target) {
-  let item = "";
-  target = target.toLocaleLowerCase();
+/* function isWerewolf(target) {
+  target = target.replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
+  let reversed = "";
 
-  for (let i = target.length - 1; i >= 0; i -= 1) {
-    if (target[i] !== " " && target[i] !== ",") {
-      item += target[i];
-    }
+  for (const item of target) {
+    reversed = item + reversed;
+  }
 
-    if (item === target) {
-      return true;
-    }
+  if (reversed === target) {
+    return true;
   }
   return false;
 }
 
 console.log(isWerewolf("rotaTor"));
-console.log(isWerewolf("rEpper"));
-console.log(isWerewolf("eva, can i see bees in a cave"));
+console.log(isWerewolf("ropper"));
+console.log(isWerewolf("eVa, can i see bEEs in a cave")); */
+
+/* function getSuccessRate(statistic) {
+  let students = "";
+
+  for (const stat of statistic) {
+    if (stat === "1") {
+      students += stat;
+    }
+  }
+
+  const percent = (students.length / statistic.length) * 100;
+  if (isNaN(percent)) {
+    return 0;
+  }
+
+  return Math.round(percent);
+}
+
+console.log(getSuccessRate("11100"));
+console.log(getSuccessRate("1001110101100"));
+console.log(getSuccessRate("000000"));
+console.log(getSuccessRate("1111110"));
+console.log(getSuccessRate("")); */

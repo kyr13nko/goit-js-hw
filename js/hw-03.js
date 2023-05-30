@@ -477,10 +477,82 @@ console.log(todayIcon);
 console.log(tomorrowIcon); */
 
 // ++++++++++++++ ТЕСТ 26 ++++++++++++++
+
+/* function calculateMeanTemperature(forecast) {
+  const {
+    today: { low: todayLow, high: todayHigh },
+    tomorrow: { low: tomorrowLow, high: tomorrowHigh },
+  } = forecast;
+
+  return (todayLow + todayHigh + tomorrowLow + tomorrowHigh) / 4;
+}
+console.log(
+  calculateMeanTemperature({
+    today: { low: 10, high: 20 },
+    tomorrow: { low: 20, high: 30 },
+  })
+); */
+
 // ++++++++++++++ ТЕСТ 27 ++++++++++++++
+
+/* const scores = [89, 64, 42, 17, 93, 51, 26];
+
+const bestScore = Math.max(...scores);
+const worstScore = Math.min(...scores);
+
+console.log(bestScore);
+console.log(worstScore); */
+
 // ++++++++++++++ ТЕСТ 28 ++++++++++++++
+
+/* const firstGroupScores = [64, 42, 93];
+const secondGroupScores = [89, 14, 51, 26];
+const thirdGroupScores = [29, 47, 18, 97, 81];
+
+const allScores = [...firstGroupScores, ...secondGroupScores, ...thirdGroupScores];
+const bestScore = Math.max(...allScores);
+const worstScore = Math.min(...allScores);
+
+console.log(allScores);
+console.log(bestScore);
+console.log(worstScore); */
+
 // ++++++++++++++ ТЕСТ 29 ++++++++++++++
+
+/* const defaultSettings = {
+  theme: "light",
+  public: true,
+  withPassword: false,
+  minNumberOfQuestions: 10,
+  timePerQuestion: 60,
+};
+const overrideSettings = {
+  public: false,
+  withPassword: true,
+  timePerQuestion: 30,
+};
+
+const finalSettings = { ...defaultSettings, ...overrideSettings };
+
+console.log(finalSettings); */
+
 // ++++++++++++++ ТЕСТ 30 ++++++++++++++
+
+function makeTask(data) {
+  const completed = false;
+  const category = "General";
+  const priority = "Normal";
+  // Change code below this line
+
+  // Change code above this line
+}
+
+console.log(makeTask({}));
+console.log(makeTask({ category: "Homemade", priority: "Low", text: "Take out the trash" }));
+console.log(makeTask({ category: "Finance", text: "Take interest" }));
+console.log(makeTask({ priority: "Low", text: "Choose shampoo" }));
+console.log(makeTask({ text: "Buy bread" }));
+
 // ++++++++++++++ ТЕСТ 31 ++++++++++++++
 // ++++++++++++++ ТЕСТ 32 ++++++++++++++
 // ++++++++++++++ ТЕСТ 33 ++++++++++++++

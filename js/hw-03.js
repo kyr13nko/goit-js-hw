@@ -538,29 +538,150 @@ console.log(finalSettings); */
 
 // ++++++++++++++ ТЕСТ 30 ++++++++++++++
 
-function makeTask(data) {
+/* function makeTask(data) {
   const completed = false;
   const category = "General";
   const priority = "Normal";
-  // Change code below this line
 
-  // Change code above this line
+  const newObject = {
+    completed,
+    category,
+    priority,
+  };
+
+  const newData = { ...newObject, ...data };
+
+  return newData;
 }
 
 console.log(makeTask({}));
 console.log(makeTask({ category: "Homemade", priority: "Low", text: "Take out the trash" }));
 console.log(makeTask({ category: "Finance", text: "Take interest" }));
 console.log(makeTask({ priority: "Low", text: "Choose shampoo" }));
-console.log(makeTask({ text: "Buy bread" }));
+console.log(makeTask({ text: "Buy bread" })); */
 
 // ++++++++++++++ ТЕСТ 31 ++++++++++++++
+
+/* function add(...args) {
+  let totalArgsResult = 0;
+  console.log(args);
+  for (const arg of args) {
+    totalArgsResult += arg;
+  }
+  return totalArgsResult;
+}
+console.log(add(15, 27));
+console.log(add(12, 4, 11, 48));
+console.log(add(32, 6, 13, 19, 8));
+console.log(add(74, 11, 62, 46, 12, 36)); */
+
 // ++++++++++++++ ТЕСТ 32 ++++++++++++++
+
+/* function addOverNum(firstArg, ...args) {
+  let total = 0;
+
+  for (const arg of args) {
+    if (arg > firstArg) {
+      total += arg;
+    }
+  }
+
+  return total;
+}
+console.log(addOverNum(50, 15, 27));
+console.log(addOverNum(10, 12, 4, 11, 48, 10, 8));
+console.log(addOverNum(15, 32, 6, 13, 19, 8));
+console.log(addOverNum(20, 74, 11, 62, 46, 12, 36)); */
+
 // ++++++++++++++ ТЕСТ 33 ++++++++++++++
+
+/* function findMatches(firstArgs, ...otherArgs) {
+  const matches = [];
+
+  for (const firstArg of firstArgs) {
+    // console.log(`firstArg - ${firstArg}`);
+    for (const otherArg of otherArgs) {
+      if (firstArg === otherArg) {
+        matches.push(firstArg);
+      }
+    }
+  }
+  return matches;
+}
+
+console.log(findMatches([1, 2, 3, 4, 5], 1, 8, 2, 7));
+console.log(findMatches([4, 89, 17, 36, 2], 8, 17, 89, 27, 2));
+console.log(findMatches([10, 24, 41, 6, 9, 19], 24, 11, 9, 23, 41));
+console.log(findMatches([63, 11, 8, 29], 4, 7, 16)); */
+
 // ++++++++++++++ ТЕСТ 34 ++++++++++++++
+
+/* const bookShelf = {
+  books: ["The last kingdom", "The guardian of dreams"],
+  getBooks() {
+    return "Returning all books";
+  },
+  addBook(bookName) {
+    return `Adding book ${bookName}`;
+  },
+  removeBook(bookName) {
+    return `Deleting book ${bookName}`;
+  },
+  updateBook(oldName, newName) {
+    return `Updating book ${oldName} to ${newName}`;
+  },
+};
+
+console.log(bookShelf.getBooks());
+console.log(bookShelf.addBook("Haze"));
+console.log(bookShelf.removeBook("Red sunset"));
+console.log(bookShelf.updateBook("Sands of dune", "Dune")); */
+
 // ++++++++++++++ ТЕСТ 35 ++++++++++++++
+
+/* const bookShelf = {
+  books: ["The last kingdom", "Haze", "The guardian of dreams"],
+  updateBook(oldName, newName) {
+    for (const book of this.books) {
+      if (book === oldName) {
+        this.books.splice(this.books.indexOf(book), 1, newName);
+      }
+    }
+    return this.books;
+  },
+};
+
+// console.log(bookShelf.updateBook("Haze", "Dungeon chronicles"));
+// console.log(bookShelf.updateBook("The last kingdom", "Dune")); */
+
 // ++++++++++++++ ТЕСТ 36 ++++++++++++++
+
+/* const atTheOldToad = {
+  potions: [],
+}; */
+
 // ++++++++++++++ ТЕСТ 37 ++++++++++++++
+
+/* const atTheOldToad = {
+  potions: ["Speed potion", "Dragon breath", "Stone skin"],
+  getPotions() {
+    return this.potions;
+  },
+}; */
+
 // ++++++++++++++ ТЕСТ 38 ++++++++++++++
+
+/* const atTheOldToad = {
+  potions: ["Speed potion", "Dragon breath", "Stone skin"],
+  addPotion(potionName) {
+    this.potions.push(potionName);
+    return this.potions;
+  },
+};
+
+// console.log(atTheOldToad.addPotion("Invisibility"));
+// console.log(atTheOldToad.addPotion("Power potion")); */
+
 // ++++++++++++++ ТЕСТ 39 ++++++++++++++
 // ++++++++++++++ ТЕСТ 40 ++++++++++++++
 // ++++++++++++++ ТЕСТ 41 ++++++++++++++
